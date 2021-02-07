@@ -1,0 +1,46 @@
+<html>
+    <Head>
+        <meta charset="UTF-8">
+        <title>aula6 javacript</title>
+    </Head>
+    <body>
+        <script>
+         // and,or, not (&& ,|| e !=)
+         // == VERIFICA SE O VALOR DA VARIAVEL É IGUAL A OUTRO RETORNA TRUE OR FALSE
+         // === VERIFICA SE O VALOR E O TIPO DA VARIAVEL É IGUAL E RETORNA TRUE OR FALSE.
+         // !== VERIFICA SE O VALOR NAO E IGUAL E RETORNA TRUE OR FALSE. "!"SERVE PARA NAO.
+         var idade = 20, sexo = 'M';
+         if(idade=== 20 && sexo ==='M'){
+             console.log('ok!!');
+         }
+         idade = 21, sexo = 'F';
+         if(idade==20 && sexo!=='M'){
+             console.log('não ok!!');
+         }
+         else{
+             console.log("OK");
+         }
+              // verifica se se a afirmação e verdade ou nao e aloca na variavel mindblowing.
+              // basicamente um if.
+         var mindblowing = idade != 20;
+
+         console.log(mindblowing);
+
+        // condição ternaria. é um if so que feito de forma resumida emuma linha. ex:
+        var nome = "esdras";
+        var resultado;
+        // vamo verificar se nome é esdras.
+        if (nome == "esdras"){
+             resultado = "sim";
+        }
+        else{
+            resultado = "nao";
+        }
+        console.log("o resutado é "+ resultado + " obs: usando if padrao");
+        // vamo denovo
+        nome= "eckatherina";
+        resultado = (nome == "esdras")? 'sim': 'nao';
+        console.log("o resultado e "+ resultado+ " obs: usando macumba");
+        </script>
+    </body>
+</html>

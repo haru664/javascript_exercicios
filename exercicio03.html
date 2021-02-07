@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>exercicio 03</title>
+    </head>
+    <body>
+        <script>
+            var result;
+            var i =0;
+            var skills = [,"ReactJS", "React Native","Javascrpt","jij","jij","jijij","jjjj","Javascript"];
+            function temHabilidade(skill) {
+                var conf;
+                for(var i=0;i<=skill.length;i++){
+                   conf = (skill[i]=="Javascript")? true:false;
+                   if(conf==true){
+                       i= skill.length;
+                   }
+                }
+                return conf; 
+            }
+            result =  temHabilidade(skills);
+            console.log(result);
+        </script>
+    </body>
+</html>

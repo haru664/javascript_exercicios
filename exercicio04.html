@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>exercicio 04</title>
+    </head>
+    <body>
+        <script>
+            function experiencia(anos) {
+              switch(anos){
+                  case 0:
+                  case 1:
+                     return "iniciante";
+                  case 2:
+                  case 3:
+                     return "Intermediario";
+                  case 4:
+                  case 5:
+                  case 6:
+                    return "Avançado";
+                  default:
+                    return "JediMaster";
+                }
+            }
+            var anosEstudo = 7;
+            var final = experiencia(anosEstudo);
+            console.log(final);
+        </script>
+    </body>
+</html>

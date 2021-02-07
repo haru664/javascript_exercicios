@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Curso javaScript</title>
+    </head>
+    <body>
+        <script>
+            //fazendo uma funçaõ
+            var i=0;
+            var y = 0;
+            function mostraralgo()
+            { 
+                console.log('hello x' + i);
+                i++;
+            }
+            function mostraralgo2()
+            { 
+                y+=5;
+                console.log("world x" + y);
+                
+            }
+            //intervalos e timeout
+            // intervalo executa uma função em algum intervalo de tempo.
+            setInterval(mostraralgo,1000);
+            // intervalos contam o tempo em milisegundos (1/1000 segundos). 
+            // a estrutura é uma função e  em seguida o intervalo de tempo da função
+
+            // timeout executa uma função 1 vez assim que o tempo delimitado acaba.
+            // dentro de 5 seg ele vai executar outra função.
+            setTimeout(mostraralgo2,5000);
+            // intervalos contam o tempo em milisegundos (1/1000 segundos). 
+            // a estrutura é uma função e  em seguida o tempo de delay da função
+        </script>
+    </body>
+</html>
