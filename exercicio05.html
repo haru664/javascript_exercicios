@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>exercicio05</title>
+    </head>
+    <body>
+        <script>
+            var v=0;
+            var prhase;
+            var usuarios = [
+            {
+                nome: "Diego",
+                habilidades: ["Javascript", "ReactJS", "Redux"]
+            },
+            {
+                 nome: "Gabriel",
+                 habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+            }
+            ];
+            function phase (prhase){
+              for(var i =0;i<usuarios.length;i++){
+                    usuarios[i].habilidades.join();
+                    prhase[i]="O "+usuarios[i].nome+" possui as Habilidades: "+usuarios[i].habilidades;
+                }
+              return prhase;
+            }
+            prhase =phase(usuarios);
+            for (let value of prhase) {
+                console.log(prhase[v]);
+                v++;
+            }
+
+        </script>
+    </body>
+</html>
